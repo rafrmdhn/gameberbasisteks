@@ -142,6 +142,4 @@ void board()
     cout << "  " << square[7] << "  |  " << square[8] << "  |  " << square[9] << endl;
 
     cout << "     |     |     " << endl << endl;
-	//iqbal al hafidzu rahman
-	//rafi ramadhan
 }
