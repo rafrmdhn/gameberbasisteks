@@ -107,12 +107,6 @@ int checkwin()
         return -1;
 }
 
-
-/*******************************************************************
-     FUNCTION TO DRAW BOARD OF TIC TAC TOE WITH PLAYERS MARK
-********************************************************************/
-
-
 void board()
 {
     system("cls");
