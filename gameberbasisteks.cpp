@@ -16,7 +16,7 @@ int main()
         board();
         player=(player%2)?1:2;
 
-        cout << "Player " << player << ", enter a number:  ";
+        cout << "Pemain " << player << ", masukan angka:  ";
         cin >> choice;
 
         mark=(player == 1) ? 'X' : 'O';
