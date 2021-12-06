@@ -146,7 +146,7 @@ int main()
 {
     bool running = true;
 	int x = 15; // hero x
-	int y = 16; // hero y
+	int y = 16; 
 	int old_x;
 	int old_y;
 
