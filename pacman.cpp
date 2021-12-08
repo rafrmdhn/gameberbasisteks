@@ -141,7 +141,6 @@ void FindPath( int sx, int sy, int x, int y ){
 	BFSArray.clear();
 }
 
-
 int main()
 {
     bool running = true;
