@@ -37,8 +37,8 @@ void skor() {
     selesai = 0;
     gotoxy(3, 2); cout<<"Skor : ";
     for (int i=0;i<79;i++){
-    	gotoxy(1+i, 1); cout<<"ß";
-    	gotoxy(1+i, 25); cout<<"ß";
+    	gotoxy(1+i, 1); cout<<"ÃŸ";
+    	gotoxy(1+i, 25); cout<<"ÃŸ";
 	} 
 }
 
@@ -52,36 +52,36 @@ void gerakan(int lompat = 0) {
     else pekmen++;
 
     gotoxy(posisi_pekmen, 15 - pekmen);cout<<"                 ";
-    gotoxy(posisi_pekmen, 16 - pekmen);cout<<"         ÜÛßÛÛÛÛÜ";
-    gotoxy(posisi_pekmen, 17 - pekmen);cout<<"         ÛÛÛÛÛÛÛÛ";
-    gotoxy(posisi_pekmen, 18 - pekmen);cout<<"         ÛÛÛÛÛßßß";
-    gotoxy(posisi_pekmen, 19 - pekmen);cout<<" Û      ÜÛÛÛÛßßß ";
-    gotoxy(posisi_pekmen, 20 - pekmen);cout<<" ÛÛÜ  ÜÛÛÛÛÛÛÜÜÜ ";
-    gotoxy(posisi_pekmen, 21 - pekmen);cout<<" ßÛÛÛÛÛÛÛÛÛÛÛ  ß ";
-    gotoxy(posisi_pekmen, 22 - pekmen);cout<<"   ßÛÛÛÛÛÛÛß     ";
+    gotoxy(posisi_pekmen, 16 - pekmen);cout<<"         ÃœÃ›ÃŸÃ›Ã›Ã›Ã›Ãœ";
+    gotoxy(posisi_pekmen, 17 - pekmen);cout<<"         Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›";
+    gotoxy(posisi_pekmen, 18 - pekmen);cout<<"         Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸ";
+    gotoxy(posisi_pekmen, 19 - pekmen);cout<<" Ã›      ÃœÃ›Ã›Ã›Ã›ÃŸÃŸÃŸ ";
+    gotoxy(posisi_pekmen, 20 - pekmen);cout<<" Ã›Ã›Ãœ  ÃœÃ›Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœ ";
+    gotoxy(posisi_pekmen, 21 - pekmen);cout<<" ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›  ÃŸ ";
+    gotoxy(posisi_pekmen, 22 - pekmen);cout<<"   ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸ     ";
     gotoxy(posisi_pekmen, 23 - pekmen);
 
     if (lompat == 1 || lompat == 2) {
-        cout<<"    ÛÛß ßÛ       ";
+        cout<<"    Ã›Ã›ÃŸ ÃŸÃ›       ";
         gotoxy(2, 24 - pekmen);
-        cout<<"    ÛÜ   ÛÜ      ";
+        cout<<"    Ã›Ãœ   Ã›Ãœ      ";
     } 
 	else if (kaki == 0) {
-        cout<<"    ßÛÛß  ßßß    ";
+        cout<<"    ÃŸÃ›Ã›ÃŸ  ÃŸÃŸÃŸ    ";
         gotoxy(2, 24 - pekmen);
-        cout<<"      ÛÜ         ";
+        cout<<"      Ã›Ãœ         ";
         kaki = !kaki;
     } 
 	else if (kaki == 1) {
-        cout<<"     ßÛÜ ßÛ      ";
+        cout<<"     ÃŸÃ›Ãœ ÃŸÃ›      ";
         gotoxy(2, 24 - pekmen);
-        cout<<"          ÛÜ     ";
+        cout<<"          Ã›Ãœ     ";
         kaki = !kaki;
     }
     
     gotoxy(2, 25 - pekmen);
     if (lompat == 0) {
-        cout<<"ßßßßßßßßßßßßßßßßß";
+        cout<<"ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ";
     } else {
         cout<<"                ";
     } 
@@ -101,9 +101,9 @@ void duri() {
     
     gotoxy(posisi_duri - tajam, 20);cout<<"        ";
     gotoxy(posisi_duri - tajam, 21);cout<<" 	   ";
-    gotoxy(posisi_duri - tajam, 22);cout<<"   Û    ";
-    gotoxy(posisi_duri - tajam, 23);cout<<"  ÛÛÛ   ";
-    gotoxy(posisi_duri - tajam, 24);cout<<" ÛÛÛÛÛ  ";
+    gotoxy(posisi_duri - tajam, 22);cout<<"   Ã›    ";
+    gotoxy(posisi_duri - tajam, 23);cout<<"  Ã›Ã›Ã›   ";
+    gotoxy(posisi_duri - tajam, 24);cout<<" Ã›Ã›Ã›Ã›Ã›  ";
      
     tajam++;
     
@@ -157,9 +157,9 @@ int main() {
     
     do{
 		system("cls");
-		gotoxy(10,5); cout<<" ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ "; 
-		gotoxy(10,6); cout<<" Û      LOMPAT DURI     Û ";  
-		gotoxy(10,7); cout<<" ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ ";
+		gotoxy(10,5); cout<<" Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã› "; 
+		gotoxy(10,6); cout<<" Ã›      LOMPAT DURI     Ã› ";  
+		gotoxy(10,7); cout<<" Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã› ";
 		gotoxy(10,9); cout<<"1. Mulai Permainan";
 		gotoxy(10,10); cout<<"2. keluar";	 
 		char op = getche();
@@ -171,3 +171,4 @@ int main() {
     
 	return 0;
 }
+//Rafi Ramadhan 2117051044
