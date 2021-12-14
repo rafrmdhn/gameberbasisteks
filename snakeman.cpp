@@ -118,17 +118,17 @@ void Input()
 }
 void Logic()
 {
-	int prevX = tailX[0];
-	int prevY = tailY[0];
+	int prevX = ekorX[0];
+	int prevY = ekorY[0];
 	int prev2X, prev2Y;
-	tailX[0] = x;
-	tailY[0] = y;
+	ekorX[0] = x;
+	ekorY[0] = y;
 	for (int i = 1; i < nTail; i++)
 	{
 		prev2X = ekorX[i];
 		prev2Y = ekorY[i];
-		tailX[i] = prevX;
-		tailY[i] = prevY;
+		ekorX[i] = prevX;
+		ekorY[i] = prevY;
 		prevX = prev2X;
 		prevY = prev2Y;
 	}
@@ -166,7 +166,7 @@ void Logic()
 	}
 	for (int i = 0; i < nTail; i++)
 	{
-		if (tailX[i] == x && tailY[i] == y)
+		if (ekorX[i] == x && ekorY[i] == y)
 		{
 			gameOver = true;
 			std::cout << "Game Over" << endl;
