@@ -10,7 +10,7 @@ const int height = 20;
 int x, y, fruitX, fruitY, score;
 enum eDirection { STOP = 0, LEFT, RIGHT, UP, DOWN};
 eDirection dir;
-int tailX[35], tailY[35];
+int ekorX[35], ekorY[35];
 int nTail;
 
 class Game
@@ -65,7 +65,7 @@ void Draw()
 				bool print = false;
 				for (int k = 0; k < nTail; k++)
 				{
-					if (tailX[k] == j && tailY[k] == i)
+					if (ekorX[k] == j && ekorY[k] == i)
 					{
 						std::cout << "o";
 						print = true;
