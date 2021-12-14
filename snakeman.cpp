@@ -125,8 +125,8 @@ void Logic()
 	tailY[0] = y;
 	for (int i = 1; i < nTail; i++)
 	{
-		prev2X = tailX[i];
-		prev2Y = tailY[i];
+		prev2X = ekorX[i];
+		prev2Y = ekorY[i];
 		tailX[i] = prevX;
 		tailY[i] = prevY;
 		prevX = prev2X;
